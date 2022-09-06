@@ -1,0 +1,17 @@
+version: '3'
+services:
+  grafana:
+    image: synologymonitoring:latest
+    container_name: syno-grafana
+    environment:
+      TZ: Europe/Berlin
+    volumes:
+      - grafana:/var/lib/grafana
+      - influxdb:/var/lib/influxdb
+    ports:
+      - 3003:3003
+      - 5144:514/udp
+
+volumes:
+  grafana:
+  influxdb:
