@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: azorimor/wekanchatbot
+          images: azorimor/telegraf-influxdb-grafana
           tags: |
             type=ref,event=branch
             type=ref,event=pr
