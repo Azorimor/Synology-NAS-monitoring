@@ -27,5 +27,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./docker
+          file: ./docker/Dockerfile
           push: true
           tags: azorimor/telegraf-influxdb-grafana:latest
