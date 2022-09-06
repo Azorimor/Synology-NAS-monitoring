@@ -74,10 +74,10 @@
   },
   "description": "A Dashboard to monitor Synology NAS",
   "editable": true,
-  "gnetId": 14573,
+  "gnetId": 14590,
   "graphTooltip": 0,
   "id": null,
-  "iteration": 1623934144709,
+  "iteration": 1662492307031,
   "links": [],
   "panels": [
     {
@@ -121,7 +121,6 @@
       },
       "styles": [
         {
-          "$$hashKey": "object:3881",
           "align": "auto",
           "dateFormat": "YYYY-MM-DD HH:mm:ss",
           "link": false,
@@ -129,7 +128,6 @@
           "type": "hidden"
         },
         {
-          "$$hashKey": "object:3882",
           "align": "auto",
           "colorMode": null,
           "colors": [
@@ -520,12 +518,10 @@
       "mappingType": 1,
       "mappingTypes": [
         {
-          "$$hashKey": "object:4104",
           "name": "value to text",
           "value": 1
         },
         {
-          "$$hashKey": "object:4105",
           "name": "range to text",
           "value": 2
         }
@@ -596,7 +592,6 @@
       "valueFontSize": "80%",
       "valueMaps": [
         {
-          "$$hashKey": "object:4107",
           "op": "=",
           "text": "N/A",
           "value": "null"
@@ -835,7 +830,6 @@
           "custom": {},
           "mappings": [
             {
-              "$$hashKey": "object:2718",
               "id": 0,
               "op": "=",
               "text": "N/A",
@@ -1050,7 +1044,6 @@
           "decimals": 2,
           "mappings": [
             {
-              "$$hashKey": "object:2799",
               "id": 0,
               "op": "=",
               "text": "N/A",
@@ -1283,12 +1276,10 @@
       "mappingType": 1,
       "mappingTypes": [
         {
-          "$$hashKey": "object:1726",
           "name": "value to text",
           "value": 1
         },
         {
-          "$$hashKey": "object:1727",
           "name": "range to text",
           "value": 2
         }
@@ -1376,85 +1367,71 @@
       "valueFontSize": "50%",
       "valueMaps": [
         {
-          "$$hashKey": "object:1729",
           "op": "=",
           "text": "Normal",
           "value": "1"
         },
         {
-          "$$hashKey": "object:1730",
           "op": "=",
           "text": "Repairing",
           "value": "2"
         },
         {
-          "$$hashKey": "object:1731",
           "op": "=",
           "text": "Migrating",
           "value": "3"
         },
         {
-          "$$hashKey": "object:1732",
           "op": "=",
           "text": "Expanding",
           "value": "4"
         },
         {
-          "$$hashKey": "object:1733",
           "op": "=",
           "text": "Deleting",
           "value": "5"
         },
         {
-          "$$hashKey": "object:1734",
           "op": "=",
           "text": "Creating",
           "value": "6"
         },
         {
-          "$$hashKey": "object:1735",
           "op": "=",
           "text": "RaidSyncing",
           "value": "7"
         },
         {
-          "$$hashKey": "object:1736",
           "op": "=",
           "text": "RaidParityChecking",
           "value": "8"
         },
         {
-          "$$hashKey": "object:1737",
           "op": "=",
           "text": "RaidAssembling",
           "value": "9"
         },
         {
-          "$$hashKey": "object:1738",
           "op": "=",
           "text": "Canceling",
           "value": "10"
         },
         {
-          "$$hashKey": "object:1739",
           "op": "=",
           "text": "Degrade",
           "value": "11"
         },
         {
-          "$$hashKey": "object:1740",
           "op": "=",
           "text": "Crashed",
           "value": "12"
         },
         {
-          "$$hashKey": "object:1741",
           "op": "=",
           "text": "Scrubbing",
           "value": "13"
         },
         {
-          "$$hashKey": "object:1742",
           "op": "=",
           "text": "Deploying volume",
           "value": "14"
@@ -1498,12 +1475,10 @@
       "mappingType": 1,
       "mappingTypes": [
         {
-          "$$hashKey": "object:1824",
           "name": "value to text",
           "value": 1
         },
         {
-          "$$hashKey": "object:1825",
           "name": "range to text",
           "value": 2
         }
@@ -1574,13 +1549,11 @@
       "valueFontSize": "50%",
       "valueMaps": [
         {
-          "$$hashKey": "object:1827",
           "op": "=",
           "text": "Normal",
           "value": "1"
         },
         {
-          "$$hashKey": "object:1828",
           "op": "=",
           "text": "Failed",
           "value": "2"
@@ -1624,12 +1597,10 @@
       "mappingType": 1,
       "mappingTypes": [
         {
-          "$$hashKey": "object:1892",
           "name": "value to text",
           "value": 1
         },
         {
-          "$$hashKey": "object:1893",
           "name": "range to text",
           "value": 2
         }
@@ -1706,13 +1677,11 @@
       "valueFontSize": "50%",
       "valueMaps": [
         {
-          "$$hashKey": "object:1895",
           "op": "=",
           "text": "Normal",
           "value": "1"
         },
         {
-          "$$hashKey": "object:1896",
           "op": "=",
           "text": "Failed",
           "value": "2"
@@ -1756,12 +1725,10 @@
       "mappingType": 1,
       "mappingTypes": [
         {
-          "$$hashKey": "object:1960",
           "name": "value to text",
           "value": 1
         },
         {
-          "$$hashKey": "object:1961",
           "name": "range to text",
           "value": 2
         }
@@ -1838,13 +1805,11 @@
       "valueFontSize": "50%",
       "valueMaps": [
         {
-          "$$hashKey": "object:1963",
           "op": "=",
           "text": "YES",
           "value": "1"
         },
         {
-          "$$hashKey": "object:1964",
           "op": "=",
           "text": "NO",
           "value": "2"
@@ -1888,12 +1853,10 @@
       "mappingType": 1,
       "mappingTypes": [
         {
-          "$$hashKey": "object:1652",
           "name": "value to text",
           "value": 1
         },
         {
-          "$$hashKey": "object:1653",
           "name": "range to text",
           "value": 2
         }
@@ -1963,13 +1926,11 @@
       "valueFontSize": "50%",
       "valueMaps": [
         {
-          "$$hashKey": "object:1655",
           "op": "=",
           "text": "Normal",
           "value": "1"
         },
         {
-          "$$hashKey": "object:1656",
           "op": "=",
           "text": "Failed",
           "value": "2"
@@ -2121,7 +2082,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:560",
           "format": "iops",
           "logBase": 1,
           "max": null,
@@ -2129,7 +2089,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:561",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -2272,7 +2231,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:285",
           "format": "ms",
           "logBase": 1,
           "max": null,
@@ -2280,7 +2238,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:286",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -2423,7 +2380,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:285",
           "format": "ms",
           "logBase": 1,
           "max": null,
@@ -2431,7 +2387,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:286",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -2574,7 +2529,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:560",
           "format": "iops",
           "logBase": 1,
           "max": null,
@@ -2582,7 +2536,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:561",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -2764,7 +2717,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:441",
           "decimals": 1,
           "format": "Bps",
           "label": null,
@@ -2774,7 +2726,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:442",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -2957,7 +2908,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:595",
           "decimals": 1,
           "format": "Bps",
           "label": null,
@@ -2967,13 +2917,141 @@
           "show": true
         },
         {
-          "$$hashKey": "object:596",
           "format": "short",
           "label": null,
           "logBase": 1,
           "max": null,
           "min": null,
           "show": false
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": "$InfluxDB",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {},
+          "displayName": "Used",
+          "unit": "decbytes"
+        },
+        "overrides": []
+      },
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 31
+      },
+      "hiddenSeries": false,
+      "id": 81,
+      "legend": {
+        "avg": false,
+        "current": false,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": false
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "alertThreshold": true
+      },
+      "percentage": false,
+      "pluginVersion": "7.3.5",
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "alias": "Used Space",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "previous"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "disk",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "queryType": "randomWalk",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "used"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "Storage",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "decbytes",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
         }
       ],
       "yaxis": {
@@ -2993,8 +3071,8 @@
       "fontSize": "100%",
       "gridPos": {
         "h": 8,
-        "w": 24,
-        "x": 0,
+        "w": 12,
+        "x": 12,
         "y": 31
       },
       "id": 8,
@@ -3008,14 +3086,12 @@
       },
       "styles": [
         {
-          "$$hashKey": "object:585",
           "align": "auto",
           "dateFormat": "YYYY-MM-DD HH:mm:ss",
           "pattern": "Time",
           "type": "hidden"
         },
         {
-          "$$hashKey": "object:586",
           "align": "auto",
           "colorMode": null,
           "colors": [
@@ -3030,7 +3106,6 @@
           "unit": "short"
         },
         {
-          "$$hashKey": "object:587",
           "alias": "",
           "align": "auto",
           "colorMode": "cell",
@@ -3051,29 +3126,24 @@
           "unit": "short",
           "valueMaps": [
             {
-              "$$hashKey": "object:643",
               "text": "Fail",
               "value": "0"
             },
             {
-              "$$hashKey": "object:644",
               "text": "OK",
               "value": "1"
             },
             {
-              "$$hashKey": "object:678",
               "text": "Initialized",
               "value": "2"
             },
             {
-              "$$hashKey": "object:680",
               "text": "Not initialized",
               "value": "3"
             }
           ]
         },
         {
-          "$$hashKey": "object:588",
           "align": "auto",
           "colorMode": "cell",
           "colors": [
@@ -3405,7 +3475,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:1029",
           "decimals": null,
           "format": "percent",
           "label": null,
@@ -3415,7 +3484,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:1030",
           "format": "percent",
           "label": null,
           "logBase": 1,
@@ -3553,7 +3621,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3342",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -3561,7 +3628,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3343",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -3694,7 +3760,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3560",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -3702,7 +3767,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3561",
           "format": "short",
           "logBase": 1,
           "max": null,
@@ -3771,11 +3835,9 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "$$hashKey": "object:3659",
           "alias": "/cpu/"
         },
         {
-          "$$hashKey": "object:3660",
           "alias": "/avg/"
         }
       ],
@@ -3848,7 +3910,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3669",
           "decimals": null,
           "format": "percent",
           "logBase": 1,
@@ -3857,7 +3918,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3670",
           "format": "short",
           "logBase": 1,
           "max": "100",
@@ -3968,7 +4028,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:3462",
           "decimals": null,
           "format": "percent",
           "label": "",
@@ -3978,7 +4037,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:3463",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -4171,7 +4229,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:2169",
           "format": "bps",
           "label": null,
           "logBase": 1,
@@ -4180,7 +4237,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:2170",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -4381,8 +4437,8 @@
         ]
       },
       "gridPos": {
-        "h": 6,
-        "w": 12,
+        "h": 10,
+        "w": 24,
         "x": 0,
         "y": 71
       },
@@ -4484,10 +4540,10 @@
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
-        "h": 6,
-        "w": 12,
-        "x": 12,
-        "y": 71
+        "h": 8,
+        "w": 13,
+        "x": 0,
+        "y": 81
       },
       "hiddenSeries": false,
       "id": 45,
@@ -5071,7 +5127,7 @@
       }
     }
   ],
-  "refresh": false,
+  "refresh": "1m",
   "schemaVersion": 26,
   "style": "dark",
   "tags": [],
@@ -5310,5 +5366,5 @@
   "timezone": "browser",
   "title": "Synology DashBoard",
   "uid": "TIcL1_ezk22",
-  "version": 27
+  "version": 4
 }
