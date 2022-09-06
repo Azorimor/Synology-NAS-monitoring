@@ -50,6 +50,8 @@ jobs:
         name: Update repo description
         uses: peter-evans/dockerhub-description@v2
         with:
+          context: .
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: azorimor/telegraf-influxdb-grafana
+          short-description: ${{ github.event.repository.description }}
