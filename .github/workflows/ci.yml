@@ -46,11 +46,17 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+  push-docker-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - 
+        name: Checkout
+        uses: actions/checkout@v2
       -
         name: Update repo description
         uses: peter-evans/dockerhub-description@v2
         with:
-          readme-filepath: /README.md
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: azorimor/telegraf-influxdb-grafana
