@@ -22,6 +22,17 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - 
+        name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: azorimor/wekanchatbot
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
       -
         name: Build and push
         uses: docker/build-push-action@v3
@@ -29,4 +40,5 @@ jobs:
           context: ./docker
           file: ./docker/Dockerfile
           push: true
-          tags: azorimor/telegraf-influxdb-grafana:latest
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
